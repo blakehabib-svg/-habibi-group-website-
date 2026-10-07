@@ -5,10 +5,9 @@
 /* ------------------------------------------------------------
    SITE CONFIG — EDIT HERE
    COMMISSION_RATE: Habibi buyer-side commission as a decimal.
-   Currently 0.0025 = 0.25%.
-   *** PENDING FINAL BUSINESS DECISION: 0.25% vs 0.5% ***
-   To switch to 0.5%, change this ONE line to: const COMMISSION_RATE = 0.005;
-   Every rate label and calculator figure on the site updates automatically.
+   0.0025 = 0.25%. Rate decided 2026-10-07 (Blake chose 0.25% over 0.5%).
+   To change it later, edit the ONE line below — every rate label and
+   calculator figure on the site updates automatically.
    ------------------------------------------------------------ */
 const COMMISSION_RATE = 0.0025;
 
