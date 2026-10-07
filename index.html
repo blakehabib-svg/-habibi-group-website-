@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habibi Group LLC — Real Estate, Minus the Padding | Illinois Brokerage</title>
+  <meta name="description" content="Habibi Group LLC is a licensed Illinois real estate brokerage built on math, transparency, and buyer advocacy. Ultra-low commissions. Net-proceeds bidding strategy. Serving northern Illinois.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ STICKY NAV ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a class="wordmark" href="#top" aria-label="Habibi Group — home">
+        <svg class="wordmark-mark" width="30" height="30" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+          <rect x="1.5" y="1.5" width="27" height="27" rx="6" stroke="#0e6b5c" stroke-width="2.5"/>
+          <path d="M8 21V11l7-5 7 5v10" stroke="#0e6b5c" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="wordmark-text">Habibi&nbsp;Group</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#how">How it works</a>
+        <a href="#calculator">Calculator</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-primary btn-sm" href="#contact">Talk to us</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Licensed Illinois Real Estate Brokerage</p>
+        <h1>Real estate,<br>minus the padding.</h1>
+        <!-- NOTE: the 0.25% commission rate is pending a final business decision (0.5% also under discussion).
+             To change the rate site-wide, edit COMMISSION_RATE in main.js — all calculator figures update automatically. -->
+        <p class="lede">Habibi Group represents buyers for a <strong>0.25% commission</strong> — not the traditional 2.5–3%. We win with math, transparency, and leverage, not hype.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#calculator">See what you'd save</a>
+          <a class="btn btn-secondary" href="#contact">Talk to us</a>
+        </div>
+        <dl class="hero-stats">
+          <div>
+            <dt>Our buyer commission</dt>
+            <dd data-rate-display>0.25%</dd>
+          </div>
+          <div>
+            <dt>Traditional buyer commission</dt>
+            <dd>2.5–3%</dd>
+          </div>
+          <div>
+            <dt>Our bidding strategy</dt>
+            <dd>Net proceeds, proven</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ TRUST STRIP ============ -->
+    <section class="trust" aria-label="Credentials">
+      <div class="container trust-inner">
+        <p class="trust-license">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M9 1.5l6 2.6v4.6c0 3.9-2.6 6.6-6 7.8-3.4-1.2-6-3.9-6-7.8V4.1l6-2.6z" stroke="#0e6b5c" stroke-width="1.8" stroke-linejoin="round"/>
+            <path d="M6.2 9l2 2 3.6-3.8" stroke="#0e6b5c" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Licensed Illinois Brokerage — Firm License #481.014591
+        </p>
+        <ul class="trust-points">
+          <li>Led by Managing Broker Warren Habib <span class="muted">(IL&nbsp;#471.001086)</span></li>
+          <li>Every offer backed by a real estate attorney</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="section" id="how">
+      <div class="container">
+        <p class="eyebrow">How it works</p>
+        <h2>Three steps. Zero padding.</h2>
+        <ol class="steps">
+          <li class="step-card">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>Tell us what you want</h3>
+            <p>You already find homes online yourself — most buyers do. Tell us your neighborhoods, budget, and must-haves, and we set up your search and alerts.</p>
+          </li>
+          <li class="step-card">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>We run the math</h3>
+            <p>For every home you like, we run a comparative market analysis and model the seller's <em>net proceeds</em> — what they actually keep after commissions — so your offer is grounded in numbers, not guesswork.</p>
+          </li>
+          <li class="step-card">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>You offer with leverage</h3>
+            <p>Because our commission is a fraction of the traditional rate, your offer can be lower on paper <em>and</em> net the seller more. That's leverage no traditional agent can match.</p>
+          </li>
+        </ol>
+
+        <div class="example">
+          <h3>The "net proceeds" advantage, worked out</h3>
+          <p class="muted">A $400,000 home. Two competing offers. Watch what the seller actually keeps.</p>
+          <div class="example-grid">
+            <article class="example-card">
+              <h4>Traditional competing offer</h4>
+              <dl>
+                <div><dt>Gross offer</dt><dd>$400,000</dd></div>
+                <div><dt>Seller's total commission (6%)</dt><dd class="neg">− $24,000</dd></div>
+                <div class="total"><dt>Seller nets</dt><dd>$376,000</dd></div>
+              </dl>
+            </article>
+            <article class="example-card example-card--ours">
+              <h4>Your Habibi offer</h4>
+              <dl>
+                <div><dt>Gross offer</dt><dd>$390,000</dd></div>
+                <div><dt>Seller's total commission (2.75%)</dt><dd class="neg">− $10,725</dd></div>
+                <div class="total"><dt>Seller nets</dt><dd>$379,275</dd></div>
+              </dl>
+            </article>
+          </div>
+          <p class="example-result">Your offer is <strong>$10,000 lower</strong> — and the seller nets <strong>$3,275 more</strong>. Math beats hype.</p>
+          <p class="fineprint">Illustrative example. Assumes a 6% total commission on the traditional path and 2.75% total (listing side plus our buyer-side rate) on the Habibi path. Actual commissions vary by listing agreement.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CALCULATOR ============ -->
+    <section class="section section--tint" id="calculator">
+      <div class="container">
+        <p class="eyebrow">Savings calculator</p>
+        <h2>What would you keep?</h2>
+        <p class="section-sub">Drag the slider. The difference between a traditional buyer-side commission and ours stays in your pocket.</p>
+
+        <div class="calc-card">
+          <label class="calc-label" for="priceRange">Home price: <output id="priceOutput" for="priceRange">$400,000</output></label>
+          <input type="range" id="priceRange" name="priceRange" min="150000" max="1000000" step="5000" value="400000" aria-describedby="priceOutput">
+          <div class="calc-ticks" aria-hidden="true"><span>$150K</span><span>$1M</span></div>
+
+          <div class="calc-results">
+            <div class="calc-row">
+              <span>Traditional buyer commission (2.5%)</span>
+              <strong id="tradResult">$10,000</strong>
+            </div>
+            <div class="calc-row calc-row--ours">
+              <span>Habibi buyer commission (<span data-rate-display>0.25%</span>)</span>
+              <strong id="habibiResult">$1,000</strong>
+            </div>
+            <div class="calc-row calc-row--keep">
+              <span>You keep</span>
+              <strong id="keepResult">$9,000</strong>
+            </div>
+          </div>
+          <!-- NOTE: figures above are computed live from COMMISSION_RATE in main.js (currently 0.0025 = 0.25%, pending final decision). -->
+          <p class="fineprint">Estimate only. Traditional buyer-side commissions typically run 2.5–3%; actual savings depend on the final agreed rate.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRANSPARENCY ============ -->
+    <section class="section" id="transparency">
+      <div class="container narrow">
+        <p class="eyebrow">Forced transparency</p>
+        <h2>No hype. Proof, instead.</h2>
+        <ul class="checklist">
+          <li>
+            <h3>Escalation clauses tied to net offers</h3>
+            <p>Our escalation clauses are written against the <em>highest bona fide net offer</em> — what the seller actually keeps — not the highest headline number.</p>
+          </li>
+          <li>
+            <h3>Proof of competing bids</h3>
+            <p>We demand to see the competing bids we're told to beat. You will never be pushed into an inflated price on someone's word alone.</p>
+          </li>
+          <li>
+            <h3>Data over salesmanship</h3>
+            <p>Every offer is grounded in a comparative market analysis and the seller's net-proceeds math — reviewed with our attorney before it goes out.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT / TEAM ============ -->
+    <section class="section section--tint" id="about">
+      <div class="container">
+        <p class="eyebrow">About</p>
+        <h2>Built to be on your side of the table.</h2>
+        <p class="section-sub">Habibi Group LLC is an Illinois real estate brokerage designed around one idea: the buyer's money should work for the buyer. Low commissions, transparent math, and a team that treats your offer like it's their own money on the line.</p>
+        <div class="team-grid">
+          <article class="team-card">
+            <h3>Warren Habib</h3>
+            <p class="role">Managing Broker · IL License #471.001086</p>
+            <p>Leads the brokerage and oversees every transaction.</p>
+          </article>
+          <article class="team-card">
+            <h3>Blake Habib</h3>
+            <p class="role">Co-owner</p>
+            <p>Co-founder focused on the firm's buyer-first model and operations.</p>
+          </article>
+          <article class="team-card">
+            <h3>Charles Siragusa</h3>
+            <p class="role">Real Estate Attorney · Professional Partner</p>
+            <p>Provides legal protection and contract review for our clients.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOME SEARCH PLACEHOLDER ============ -->
+    <section class="section" id="search">
+      <div class="container narrow">
+        <div class="waitlist-card">
+          <p class="eyebrow">Home search</p>
+          <h2>MLS home search is on its way.</h2>
+          <p>We're building direct MLS search into this site. Join the waitlist and we'll let you know the moment it's live — along with early access to our net-proceeds offer tools.</p>
+          <!-- IDX INTEGRATION POINT: replace this waitlist block with an IDX Broker or Showcase IDX embed.
+               Both vendors provide a copy-paste snippet; Warren (MRED participant via NSBAR #36103) signs the vendor's IDX agreement. See README.md. -->
+          <form class="inline-form" id="waitlistForm" novalidate>
+            <label class="visually-hidden" for="waitlistEmail">Email address</label>
+            <input type="email" id="waitlistEmail" name="email" placeholder="you@example.com" required autocomplete="email">
+            <button class="btn btn-primary" type="submit">Notify me</button>
+          </form>
+          <p class="form-note" id="waitlistNote" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--tint" id="contact">
+      <div class="container narrow">
+        <p class="eyebrow">Contact</p>
+        <h2>Talk to us.</h2>
+        <p class="section-sub">Buying in northern Illinois? Tell us where you're looking — we'll take it from there. Prefer to talk? <a class="phone-link" href="tel:+16302633619">(630) 263-3619</a></p>
+
+        <!-- BACKEND WIRING: this form is front-end only. On submit it shows a success state (see main.js).
+             To go live, POST the form data to your endpoint (Formspree, Netlify Forms, or your CRM)
+             and replace the simulated submit handler. See README.md for details. -->
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="cfName">Name</label>
+              <input type="text" id="cfName" name="name" required autocomplete="name" placeholder="Jane Buyer">
+            </div>
+            <div class="field">
+              <label for="cfPhone">Phone <span class="optional">(optional)</span></label>
+              <input type="tel" id="cfPhone" name="phone" autocomplete="tel" placeholder="(312) 555-0100">
+            </div>
+          </div>
+          <div class="field">
+            <label for="cfEmail">Email</label>
+            <input type="email" id="cfEmail" name="email" required autocomplete="email" placeholder="you@example.com">
+          </div>
+          <div class="field">
+            <label for="cfIntent">I want to</label>
+            <select id="cfIntent" name="intent" required>
+              <option value="buy" selected>Buy a home</option>
+              <option value="sell">Sell a home</option>
+              <option value="both">Buy and sell</option>
+              <option value="other">Just exploring</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="cfMessage">Message</label>
+            <textarea id="cfMessage" name="message" rows="4" placeholder="Neighborhoods you're watching, timeline, anything else we should know."></textarea>
+          </div>
+          <button class="btn btn-primary btn-block" type="submit">Send message</button>
+          <p class="form-note" id="contactNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <p class="footer-name">Habibi Group LLC</p>
+        <p>4845 N Washtenaw Ave<br>Chicago, IL 60625</p>
+        <p><a href="tel:+16302633619">(630) 263-3619</a></p>
+      </div>
+      <div class="footer-legal">
+        <p>Illinois Real Estate Firm License #481.014591</p>
+        <p>Managing Broker: Warren Habib, IL License #471.001086</p>
+        <p class="equal-housing">
+          <svg width="34" height="24" viewBox="0 0 34 24" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="32" height="22" rx="2" stroke="#8a8378" stroke-width="1.6"/>
+            <path d="M6 19V10l11-6 11 6v9" stroke="#8a8378" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6 10l11 5.5L28 10" stroke="#8a8378" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Equal Housing Opportunity. Habibi Group LLC fully supports the principles of the Fair Housing Act and does not discriminate on the basis of race, color, religion, sex, handicap, familial status, or national origin.</span>
+        </p>
+        <p class="copyright">© 2026 Habibi Group LLC. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
